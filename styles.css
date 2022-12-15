@@ -215,10 +215,6 @@ button img {
 
 /* Media Queries Styles */
 @media screen and (max-width: 480px) {
-  body {
-    width: 100%;
-  }
-
   html,
   body {
     overflow-x: hidden;
