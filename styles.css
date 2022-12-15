@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
 
 html {
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 * {
@@ -55,14 +55,14 @@ section span {
 
 .banner h1 {
   font-weight: 800;
-  font-size: 2.62rem;
-  line-height: 1.5rem;
+  font-size: 4.1rem;
+  line-height: 2.4rem;
 }
 
 .banner span {
   font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
   text-align: right;
 }
 
@@ -100,8 +100,8 @@ input {
 input,
 .search-container button {
   font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 section {
@@ -131,8 +131,8 @@ section {
 section span {
   color: #2e2e2f;
   font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
 .film-info {
@@ -170,8 +170,8 @@ section span {
 
 .row h2 {
   font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
   padding-right: 4px;
 }
 
@@ -186,8 +186,8 @@ section span {
 .row-2 button {
   color: #fff;
   font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   gap: 4px;
 }
 
@@ -209,8 +209,8 @@ button img {
 .text p {
   color: #a5a5a5;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 /* Media Queries Styles */
@@ -225,7 +225,7 @@ button img {
   }
 
   .banner h1 {
-    line-height: 3rem;
+    line-height: 5rem;
   }
 
   .film-info {
