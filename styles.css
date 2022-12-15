@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 button,
 input,
 textarea {
@@ -152,7 +158,7 @@ section span {
 
 .text {
   width: auto;
-  height: 119px;
+  height: fit-content;
 }
 
 .row,
@@ -182,7 +188,7 @@ section span {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.25rem;
-  margin-right: 4px;
+  gap: 4px;
 }
 
 #add-watchlist {
@@ -205,4 +211,43 @@ button img {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+/* Media Queries Styles */
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .banner h1 {
+    line-height: 3rem;
+  }
+
+  .film-info {
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .row {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .row-2 {
+    justify-content: center;
+  }
+
+  .text p {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
