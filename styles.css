@@ -220,6 +220,10 @@ button img {
     overflow-x: hidden;
   }
 
+  .container {
+    width: 100%;
+  }
+
   .banner h1 {
     line-height: 3rem;
   }
